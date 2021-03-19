@@ -1,0 +1,1 @@
+This game is to emulate the rock-papers-scissors game against the computer.
