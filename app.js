@@ -1,17 +1,19 @@
-console.log("Hello");
-
 function computerPlay() {
     let myArray = ["Rock", "Paper", "Scissors"];
     let random = Math.floor(Math.random() * myArray.length);
-    console.log(myArray[random]);
+    return myArray[random];
 }
 
 function playRound(playerSelection, computerSelection) {
-    if (playerSelection == "Rock" && computerSelection == "paper") {
+    if (playerSelection.toUpperCase() == "Rock".toUpperCase() && computerSelection.toUpperCase() == "Paper".toUpperCase()) {
         return "You lose! Paper beats Rock";
-    } else if (playerSelection == "Rock" && computerSelection == "Scissors") {
+    } else if (playerSelection.toUpperCase() == "Rock".toUpperCase() && computerSelection.toUpperCase() == "Scissors".toUpperCase()) {
         return "You win! Rock beats Scissors";
-    } else if (playerSelection == "Rock" && computerSelection == "Rock") {
+    } else if (playerSelection.toUpperCase() == "Rock".toUpperCase() && computerSelection.toUpperCase() == "Rock".toUpperCase()) {
         return "It's a tie";
     }
+}
+
+function game() {
+    
 }
