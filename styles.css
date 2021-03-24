@@ -1,0 +1,19 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+    font-size: 50px;
+}
+
+.content {
+    text-align: left;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.disabledButton {
+    pointer-events: none;
+    opacity: 0.4;;
+}
