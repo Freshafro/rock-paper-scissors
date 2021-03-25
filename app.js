@@ -1,28 +1,9 @@
-/*const btnRock = document.querySelector("#btnRock");
-btnRock.addEventListener("click", e => {
-    alert("Rock");
-});
-
-const btnPaper = document.querySelector("#btnPaper");
-btnPaper.addEventListener("click", e => {
-    alert("Paper");
-});
-
-const btnScissors = document.querySelector("#btnScissors");
-btnScissors.addEventListener("click", e => {
-    alert("Scissors");
-});*/
-
 let userInput;
 const body = document.querySelector("body");
 const container = document.querySelector("#container");
 const buttons = document.querySelectorAll("button");
 const content = document.createElement('div');
 content.classList.add('content');
-
-function disableButton() {
-    buttons.disabled = true;
-}
 
 // Function that manages the whole game
 function game() {
