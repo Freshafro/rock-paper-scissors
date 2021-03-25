@@ -21,7 +21,7 @@ const content = document.createElement('div');
 content.classList.add('content');
 
 function disableButton() {
-    buttons.diabled = true;
+    buttons.disabled = true;
 }
 
 // Function that manages the whole game
